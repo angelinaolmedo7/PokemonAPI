@@ -41,10 +41,10 @@ class ViewController: UIViewController {
        }
 
        func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-//        let cell = tableView.dequeueReusableCell(withIdentifier: "pokemonCell", for: indexPath) as! PokemonTableViewCell
+        let cell = tableView.dequeueReusableCell(withIdentifier: "pokemonCell", for: indexPath) as! PokemonTableViewCell
         let pokemon = pokemons[indexPath.row]
-//        cell.pokemon = pokemon
-//        return cell
+        cell.pokemon = pokemon
+        return cell
        }
     }
 

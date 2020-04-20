@@ -15,6 +15,7 @@
 		29E2B410244E394C0085B6DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29E2B40E244E394C0085B6DB /* LaunchScreen.storyboard */; };
 		29E2B41A244E429B0085B6DB /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E2B419244E429B0085B6DB /* Pokemon.swift */; };
 		29E2B41C244E448C0085B6DB /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E2B41B244E448C0085B6DB /* NetworkManager.swift */; };
+		29E2B41E244E48120085B6DB /* PokemonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E2B41D244E48120085B6DB /* PokemonTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		29E2B411244E394C0085B6DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		29E2B419244E429B0085B6DB /* Pokemon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pokemon.swift; sourceTree = "<group>"; };
 		29E2B41B244E448C0085B6DB /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		29E2B41D244E48120085B6DB /* PokemonTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 			children = (
 				29E2B403244E394A0085B6DB /* AppDelegate.swift */,
 				29E2B405244E394A0085B6DB /* SceneDelegate.swift */,
+				29E2B41D244E48120085B6DB /* PokemonTableViewCell.swift */,
 				29E2B407244E394A0085B6DB /* ViewController.swift */,
 				29E2B409244E394A0085B6DB /* Main.storyboard */,
 				29E2B40C244E394C0085B6DB /* Assets.xcassets */,
@@ -147,6 +150,7 @@
 				29E2B408244E394A0085B6DB /* ViewController.swift in Sources */,
 				29E2B41A244E429B0085B6DB /* Pokemon.swift in Sources */,
 				29E2B41C244E448C0085B6DB /* NetworkManager.swift in Sources */,
+				29E2B41E244E48120085B6DB /* PokemonTableViewCell.swift in Sources */,
 				29E2B404244E394A0085B6DB /* AppDelegate.swift in Sources */,
 				29E2B406244E394A0085B6DB /* SceneDelegate.swift in Sources */,
 			);
